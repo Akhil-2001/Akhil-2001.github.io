@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://akhx.github.io/sitemap.xml
+User-agent: * Disallow: Sitemap: https://akhil-2001.github.io/sitemap.xml
