@@ -17,12 +17,16 @@ $green-color: #00ab37 !default;
 $green-color-lime: #b7d12a !default;
 $green-color-dark: #009f06 !default;
 $green-color-light: #ddffdd !default;
-$green-color-bright: #11d68b !default;
+$green-color-bright: #1aceaa !default;
 $purple-color: #b509ac !default;
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;
+$blue-bg-color-dark: rgb(15, 17, 25) !default;
+$blue-bg-color-light: rgb(28, 38, 56) !default;
+$blue-card-color: rgb(22, 27, 34) !default;
+
 
 $grey-color: #828282 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);

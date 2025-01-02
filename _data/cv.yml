@@ -2,96 +2,89 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Akhil M R
     - name: Date of Birth
-      value: 14th March 1879
+      value: 31 March 2001
     - name: Languages
-      value: English, German
+      value: English, Kannada, Telugu
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelor of Technology in Computer Science
+      institution: PES University
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - <i>Notable Courses - </i> Data Structures, Algorithms, Operating Systems, Distributed Systems, Cloud Computing, Statistics, Linear Algebra, Machine Intelligence, Compiler Design, Computing with Python, Object Oriented Analysis & Design, .
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Member of Technical Staff
+      institution: Vymo
+      year: Jul'23 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Took ownership of a distributed stream processing service written in Java and driven by technologies such as Kafka and Zookeeper, for allocating sales-data and called as the allocation-service.
+        - Decoupled stateful in-memory data from allocation-service and stored them in Redis, solving a critical race-condition as well as drastically improving the throughput of the service by 10x.
+        - Contributed to a multi-threaded high-throughput rule evaluation engine capable of processing 10M+ sales-data per day, as a part of the allocation-service.
+        - Boosted monitoring capabilities by implementing an observability solution for the allocation service by using Prometheus and Grafana.
+        - Contributed to the lead-management service by designing and developing a scalable solution for combining customer data from different sources and enabling a consolidated view called as Customer-360.
+        - Built a Filter Translation Layer which is responsible for translating user defined search criteria into ElasticSearch queries, thereby drastically expanding the search capabilities of Customer-360.
+        - Played a key role as a SME/on-call developer for two areas - customer-360 and allocation-service. Organized KTs, resolved technical debts, triaged bugs and upheld client SLAs.
+        - Enhanced various product areas such as sms/email based content-sharing platform, self-service config platform and lead-management workflows mainly implemented in NodeJS, impacting all of the 100+ clients.
+    - title: Software Development Intern
+      institution: Vyapar
+      year: Jan'23 - Jun'23
       description:
-        - Description 1.
-        - Description 2.
+        - Contributed to a redesigned data pipeline for ingesting data from MySQL to GCP BigQuery, based on the principles of log replication (change-data-capture) of MySQL binlogs.
+        - Reduced the cost of operations involved in transporting data from from MySQL to BigQuery by around 15% as compared to the old ingestion solution.
+        - Developed various Microservices and REST APIs using Node.js with TypeScript along with technologies such as AWS S3, Lambda, SQS, MongoDB and Redis.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Research Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Research Mentee
+      institution: PES University - Hewlett Packard Enterprise Collaboration
+      year: Jan'22 - Aug'22
+      description:
+        - Identified gaps in the oncology research space where privacy laws prevent different medical organizations from collaborating with each other as patient data is sensitive, under the guidance of Dr Sivaraman E, PESU.
+        - Proposed a solution to overcome this by utilizing distributed machine learning and applying privacy-preserving techniques so that only statistical insights are shared among organizations.
+        - Collaborated with Hewlett Packard to utilize their distributed privacy preserving machine learning platform called Swarm learning, under the guidance of Mr K L Shastry, HPE
+        - Officially contributed to Swarm Learning by developing a Neural Network based model for cancer diagnosis and a DenseNet model for cancer histology image classification, achieving an accuracy of well over 95%.
+        - Articulated and published the research paper titled ”Swarm Learning for Oncology Research” in LNCS, Springer.
+    - title: Research Intern
+      institution: Center for Information Security, Forensics and Cyber Resilience, PESU
+      year: Aug'21 - Dec'21
+      description:
+        - Aimed to close gaps with respect to the applicability of different low light image enhancement techniques for their real-world applications such as digital forensics.
+        - Implemented various low light image enhancement technique algorithms based on their corresponding research papers and performed a quantitative and qualitative analysis on the results produced by them, while drawing comparisons.
+        - Analysed qualitative factors such as adaptability to different input images, contrast and color-scale of output images and quantitative factors such as PSNR.
+        - Articulated and published the research pre-print titled ”Advancements in Low Light Image Enhancement Techniques for Real-Time Applications - A Comprehensive Review” in SSRN, Elsevier; under the guidance of Dr. Sivaraman E, PESU.
 
-- title: Honors and Awards
+- title: Projects
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: TCP LoadBalancer
+      year: 2022
+      description: 
+      - A simple TCP reverse proxy server responsible for equally distributing consecutive requests to all the servers within a cluster of servers in a round robin fashion in order to increase the throughput of request processing. Tech- C, Socket Programming, POSIX Threads.
+    - title: Distributed Key-Value Store
+      year: 2023
+      description: 
+      - Developed a robust distributed key-value store in Go using a memberlist for cluster membership and member failure detection. Multiple instances of the cache can be initialized and a load-balancer can be used to route subsequent requests to shards within the cluster. Tech - Go, MemberList.
+    - title: Algorithm Visualizer
+      year: 2020
+      description: 
+      - Developed a robust Web Application in ReactJS capable of visualizing different algorithms such as Sorting and Pathfinding algorithms. For this example, Dijkstra’s algorithm and selection sort were implemented for visualization. Tech - ReactJS, CSS, JavaScript.
 
-- title: Academic Interests
-  type: nested_list
+- title: Skills
+  type: time_table
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Programming Languages
+      description: C, C++, Java, Python, Go, JavaScript, SQL
+    - title: Databases/Technologies
+      description: MySQL, MongoDB, Kafka, Redis, ElasticSearch, Clickhouse, BigQuery
+    - title: Tools/Frameworks
+      description: NodeJS, ReactJS, Spring Boot, Git, Docker, Kubernetes
+    - title: Cloud
+      description: AWS, Azure
