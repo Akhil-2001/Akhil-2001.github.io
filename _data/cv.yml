@@ -24,11 +24,13 @@
       institution: Vymo
       year: Jul'23 - Present
       description:
-        - Took ownership of a distributed stream processing service written in Java and driven by technologies such as Kafka and Zookeeper, for allocating sales-data and called as the allocation-service.
-        - Decoupled stateful in-memory data from allocation-service and stored them in Redis, solving a critical race-condition as well as drastically improving the throughput of the service by 10x.
-        - Contributed to a multi-threaded high-throughput rule evaluation engine capable of processing 10M+ sales-data per day, as a part of the allocation-service.
-        - Boosted monitoring capabilities by implementing an observability solution for the allocation service by using Prometheus and Grafana.
-        - Contributed to the lead-management service by designing and developing a scalable solution for combining customer data from different sources and enabling a consolidated view called as Customer-360.
+        - Tech owner for a `distributed stream processing service` written in `Java` and driven by `Kafka`, for allocating sales-data and called as the allocation-service.
+        - Decoupled stateful in-memory data from allocation-service and cached them in `Redis`, solving a critical race-condition as well as drastically improving the throughput of the service by 2x.
+        - Contributed to a `multi-threaded` high-throughput rule evaluation engine capable of processing 10M+ sales-data per day, as a part of the allocation-service.
+        - Performed various optimisations for allocation-service such as improving the `concurrency`, `JVM/GC` tuning and Kafka-consumer optimisations which increased the throughput of the service by `~30%`.
+        - Wrote automated scripts for `benchmarking` the performance of the microservice with production like data and traffic.
+        - Resolved various concurrency issues and tech-debts in production, bringing down the error count from 150+ errors during high traffic down to 0.
+        - Contributed to the lead-management-service by designing and developing a scalable solution for combining customer data from different sources and enabling a consolidated view called as Customer-360.
         - Built a Filter Translation Layer which is responsible for translating user defined search criteria into ElasticSearch queries, thereby drastically expanding the search capabilities of Customer-360.
         - Played a key role as a SME/on-call developer for two areas - customer-360 and allocation-service. Organized KTs, resolved technical debts, triaged bugs and upheld client SLAs.
         - Enhanced various product areas such as sms/email based content-sharing platform, self-service config platform and lead-management workflows mainly implemented in NodeJS, impacting all of the 100+ clients.
