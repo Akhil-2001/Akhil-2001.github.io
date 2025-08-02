@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! I'm a budding Software Engineer with around 1.5 years of experience working primarily as a `Backend Engineer`, at a B2B Sales engagement platform called `Vymo`. 
+Hello! I'm a Software Engineer with around 2 years of experience working primarily as a `Backend Engineer`, at a B2B Sales engagement platform called `Vymo`. 
 
 I've also obtained my Bachelors in Computer Science from `PES University, Bangalore` in the Fall of 2023.
 
