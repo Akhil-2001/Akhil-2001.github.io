@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Software Engineer @Vymo</p>
+    <p>Software Engineer @Flipkart</p>
     <p>Bangalore, India</p>
 
 news: false # includes a list of news items
@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! I'm a Software Engineer with around 2 years of experience working primarily as a `Backend Engineer`, at a B2B Sales engagement platform called `Vymo`. 
+Hello! I'm a Software Engineer with around 3 years of experience working primarily as a `Backend Engineer`, currently at `Flipkart` and previously at a B2B Sales engagement platform called `Vymo`. 
 
 I've also obtained my Bachelors in Computer Science from `PES University, Bangalore` in the Fall of 2023.
 
